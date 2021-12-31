@@ -42,8 +42,9 @@ func populate() {
                     let category = json["items"][index]["category"].string!
                     let description = json["items"][index]["description"].string!
                     let image = json["items"][index]["image"].string!
+                    let price = json["items"][index]["price"].double!
                     
-                    let meal = Meal(name: name, category: category, description: description, image: image, price: 0.0)
+                    let meal = Meal(name: name, category: category, description: description, image: image, price: price)
                     mealList.append(meal)
                     
                     if !categories.contains(category) {

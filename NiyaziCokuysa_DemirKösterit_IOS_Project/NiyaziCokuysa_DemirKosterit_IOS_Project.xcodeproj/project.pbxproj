@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA2F11E0277F8C7400895354 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */; };
+		BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E1277F8CD400895354 /* Favorite.swift */; };
 		BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD1C277F11B5004782C6 /* MainVC.swift */; };
 		BA75CD23277F12FB004782C6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD22277F12FB004782C6 /* Meal.swift */; };
 		BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD24277F1494004782C6 /* MenuVC.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BA2F11E1277F8CD400895354 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Favorite.swift; path = NiyaziCokuysa_DemirKosterit_IOS_Project/Favorite.swift; sourceTree = "<group>"; };
 		BA75CD1C277F11B5004782C6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BA75CD22277F12FB004782C6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		BA75CD24277F1494004782C6 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
@@ -56,6 +60,8 @@
 		BAD8759A277F0C5D00A65846 = {
 			isa = PBXGroup;
 			children = (
+				BA2F11E1277F8CD400895354 /* Favorite.swift */,
+				BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */,
 				BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */,
 				BAD875A4277F0C5D00A65846 /* Products */,
 			);
@@ -167,10 +173,12 @@
 				BA75CD29277F1536004782C6 /* CollectionReusableView.swift in Sources */,
 				BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */,
 				BA75CD2D277F16DC004782C6 /* SwiftyJSON.swift in Sources */,
+				BA2F11E0277F8C7400895354 /* Favorite+CoreDataProperties.swift in Sources */,
 				BA75CD2B277F167E004782C6 /* DataSource.swift in Sources */,
 				BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */,
 				BA75CD27277F150F004782C6 /* CollectionViewCell.swift in Sources */,
 				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
+				BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */,
 				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
 				BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */,
 			);
