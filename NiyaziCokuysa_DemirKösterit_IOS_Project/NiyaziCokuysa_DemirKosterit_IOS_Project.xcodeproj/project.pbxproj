@@ -7,27 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EA964107277A17BD0070BDE9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA964106277A17BD0070BDE9 /* AppDelegate.swift */; };
-		EA964109277A17BD0070BDE9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA964108277A17BD0070BDE9 /* SceneDelegate.swift */; };
-		EA96410E277A17BD0070BDE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA96410C277A17BD0070BDE9 /* Main.storyboard */; };
-		EA964111277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EA96410F277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld */; };
-		EA964113277A17BF0070BDE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA964112277A17BF0070BDE9 /* Assets.xcassets */; };
-		EA964116277A17BF0070BDE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA964114277A17BF0070BDE9 /* LaunchScreen.storyboard */; };
+		BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875A6277F0C5D00A65846 /* AppDelegate.swift */; };
+		BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */; };
+		BAD875AB277F0C5D00A65846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875AA277F0C5D00A65846 /* ViewController.swift */; };
+		BAD875AE277F0C5D00A65846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875AC277F0C5D00A65846 /* Main.storyboard */; };
+		BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */; };
+		BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B2277F0C5E00A65846 /* Assets.xcassets */; };
+		BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA964103277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NiyaziCokuysa_DemirKösterit_IOS_Project.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		EA964106277A17BD0070BDE9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EA964108277A17BD0070BDE9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA96410D277A17BD0070BDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EA964110277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodel; sourceTree = "<group>"; };
-		EA964112277A17BF0070BDE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		EA964115277A17BF0070BDE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		EA964117277A17BF0070BDE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiyaziCokuysa_DemirKosterit_IOS_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD875A6277F0C5D00A65846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BAD875AA277F0C5D00A65846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAD875AD277F0C5D00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAD875B0277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel; sourceTree = "<group>"; };
+		BAD875B2277F0C5E00A65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAD875B5277F0C5E00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAD875B7277F0C5E00A65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EA964100277A17BD0070BDE9 /* Frameworks */ = {
+		BAD875A0277F0C5D00A65846 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,72 +39,73 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EA9640FA277A17BD0070BDE9 = {
+		BAD8759A277F0C5D00A65846 = {
 			isa = PBXGroup;
 			children = (
-				EA964105277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project */,
-				EA964104277A17BD0070BDE9 /* Products */,
+				BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */,
+				BAD875A4277F0C5D00A65846 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EA964104277A17BD0070BDE9 /* Products */ = {
+		BAD875A4277F0C5D00A65846 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA964103277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project.app */,
+				BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		EA964105277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project */ = {
+		BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */ = {
 			isa = PBXGroup;
 			children = (
-				EA964106277A17BD0070BDE9 /* AppDelegate.swift */,
-				EA964108277A17BD0070BDE9 /* SceneDelegate.swift */,
-				EA96410C277A17BD0070BDE9 /* Main.storyboard */,
-				EA964112277A17BF0070BDE9 /* Assets.xcassets */,
-				EA964114277A17BF0070BDE9 /* LaunchScreen.storyboard */,
-				EA964117277A17BF0070BDE9 /* Info.plist */,
-				EA96410F277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld */,
+				BAD875A6277F0C5D00A65846 /* AppDelegate.swift */,
+				BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */,
+				BAD875AA277F0C5D00A65846 /* ViewController.swift */,
+				BAD875AC277F0C5D00A65846 /* Main.storyboard */,
+				BAD875B2277F0C5E00A65846 /* Assets.xcassets */,
+				BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */,
+				BAD875B7277F0C5E00A65846 /* Info.plist */,
+				BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */,
 			);
-			path = "NiyaziCokuysa_DemirKösterit_IOS_Project";
+			path = NiyaziCokuysa_DemirKosterit_IOS_Project;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		EA964102277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project */ = {
+		BAD875A2277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EA96411A277A17BF0070BDE9 /* Build configuration list for PBXNativeTarget "NiyaziCokuysa_DemirKösterit_IOS_Project" */;
+			buildConfigurationList = BAD875BA277F0C5E00A65846 /* Build configuration list for PBXNativeTarget "NiyaziCokuysa_DemirKosterit_IOS_Project" */;
 			buildPhases = (
-				EA9640FF277A17BD0070BDE9 /* Sources */,
-				EA964100277A17BD0070BDE9 /* Frameworks */,
-				EA964101277A17BD0070BDE9 /* Resources */,
+				BAD8759F277F0C5D00A65846 /* Sources */,
+				BAD875A0277F0C5D00A65846 /* Frameworks */,
+				BAD875A1277F0C5D00A65846 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "NiyaziCokuysa_DemirKösterit_IOS_Project";
-			productName = "NiyaziCokuysa_DemirKösterit_IOS_Project";
-			productReference = EA964103277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project.app */;
+			name = NiyaziCokuysa_DemirKosterit_IOS_Project;
+			productName = NiyaziCokuysa_DemirKosterit_IOS_Project;
+			productReference = BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EA9640FB277A17BD0070BDE9 /* Project object */ = {
+		BAD8759B277F0C5D00A65846 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
 				LastUpgradeCheck = 1130;
-				ORGANIZATIONNAME = "NiyaziÇokuysal_DemirKösterit";
+				ORGANIZATIONNAME = "niyazi-demir";
 				TargetAttributes = {
-					EA964102277A17BD0070BDE9 = {
+					BAD875A2277F0C5D00A65846 = {
 						CreatedOnToolsVersion = 11.3.1;
 					};
 				};
 			};
-			buildConfigurationList = EA9640FE277A17BD0070BDE9 /* Build configuration list for PBXProject "NiyaziCokuysa_DemirKösterit_IOS_Project" */;
+			buildConfigurationList = BAD8759E277F0C5D00A65846 /* Build configuration list for PBXProject "NiyaziCokuysa_DemirKosterit_IOS_Project" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +113,56 @@
 				en,
 				Base,
 			);
-			mainGroup = EA9640FA277A17BD0070BDE9;
-			productRefGroup = EA964104277A17BD0070BDE9 /* Products */;
+			mainGroup = BAD8759A277F0C5D00A65846;
+			productRefGroup = BAD875A4277F0C5D00A65846 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EA964102277A17BD0070BDE9 /* NiyaziCokuysa_DemirKösterit_IOS_Project */,
+				BAD875A2277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EA964101277A17BD0070BDE9 /* Resources */ = {
+		BAD875A1277F0C5D00A65846 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA964116277A17BF0070BDE9 /* LaunchScreen.storyboard in Resources */,
-				EA964113277A17BF0070BDE9 /* Assets.xcassets in Resources */,
-				EA96410E277A17BD0070BDE9 /* Main.storyboard in Resources */,
+				BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */,
+				BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */,
+				BAD875AE277F0C5D00A65846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EA9640FF277A17BD0070BDE9 /* Sources */ = {
+		BAD8759F277F0C5D00A65846 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA964111277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld in Sources */,
-				EA964107277A17BD0070BDE9 /* AppDelegate.swift in Sources */,
-				EA964109277A17BD0070BDE9 /* SceneDelegate.swift in Sources */,
+				BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */,
+				BAD875AB277F0C5D00A65846 /* ViewController.swift in Sources */,
+				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
+				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA96410C277A17BD0070BDE9 /* Main.storyboard */ = {
+		BAD875AC277F0C5D00A65846 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA96410D277A17BD0070BDE9 /* Base */,
+				BAD875AD277F0C5D00A65846 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		EA964114277A17BF0070BDE9 /* LaunchScreen.storyboard */ = {
+		BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				EA964115277A17BF0070BDE9 /* Base */,
+				BAD875B5277F0C5E00A65846 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +170,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		EA964118277A17BF0070BDE9 /* Debug */ = {
+		BAD875B8277F0C5E00A65846 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -226,7 +230,7 @@
 			};
 			name = Debug;
 		};
-		EA964119277A17BF0070BDE9 /* Release */ = {
+		BAD875B9277F0C5E00A65846 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -280,34 +284,34 @@
 			};
 			name = Release;
 		};
-		EA96411B277A17BF0070BDE9 /* Debug */ = {
+		BAD875BB277F0C5E00A65846 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "NiyaziCokuysa_DemirKösterit_IOS_Project/Info.plist";
+				INFOPLIST_FILE = NiyaziCokuysa_DemirKosterit_IOS_Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKo-sterit-IOS-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKosterit-IOS-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EA96411C277A17BF0070BDE9 /* Release */ = {
+		BAD875BC277F0C5E00A65846 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = "NiyaziCokuysa_DemirKösterit_IOS_Project/Info.plist";
+				INFOPLIST_FILE = NiyaziCokuysa_DemirKosterit_IOS_Project/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKo-sterit-IOS-Project";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKosterit-IOS-Project";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -317,20 +321,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EA9640FE277A17BD0070BDE9 /* Build configuration list for PBXProject "NiyaziCokuysa_DemirKösterit_IOS_Project" */ = {
+		BAD8759E277F0C5D00A65846 /* Build configuration list for PBXProject "NiyaziCokuysa_DemirKosterit_IOS_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA964118277A17BF0070BDE9 /* Debug */,
-				EA964119277A17BF0070BDE9 /* Release */,
+				BAD875B8277F0C5E00A65846 /* Debug */,
+				BAD875B9277F0C5E00A65846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EA96411A277A17BF0070BDE9 /* Build configuration list for PBXNativeTarget "NiyaziCokuysa_DemirKösterit_IOS_Project" */ = {
+		BAD875BA277F0C5E00A65846 /* Build configuration list for PBXNativeTarget "NiyaziCokuysa_DemirKosterit_IOS_Project" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EA96411B277A17BF0070BDE9 /* Debug */,
-				EA96411C277A17BF0070BDE9 /* Release */,
+				BAD875BB277F0C5E00A65846 /* Debug */,
+				BAD875BC277F0C5E00A65846 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -338,17 +342,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		EA96410F277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld */ = {
+		BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				EA964110277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodel */,
+				BAD875B0277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel */,
 			);
-			currentVersion = EA964110277A17BD0070BDE9 /* NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodel */;
-			path = NiyaziCokuysa_DemirKo_sterit_IOS_Project.xcdatamodeld;
+			currentVersion = BAD875B0277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel */;
+			path = NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = EA9640FB277A17BD0070BDE9 /* Project object */;
+	rootObject = BAD8759B277F0C5D00A65846 /* Project object */;
 }

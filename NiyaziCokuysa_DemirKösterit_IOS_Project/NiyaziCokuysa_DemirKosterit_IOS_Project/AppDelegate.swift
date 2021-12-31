@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  NiyaziCokuysa_DemirKösterit_IOS_Project
+//  NiyaziCokuysa_DemirKosterit_IOS_Project
 //
-//  Created by Niyazi Çokuysal on 27.12.2021.
-//  Copyright © 2021 NiyaziÇokuysal_DemirKösterit. All rights reserved.
+//  Created by CTIS Student on 31.12.2021.
+//  Copyright © 2021 niyazi-demir. All rights reserved.
 //
 
 import UIKit
@@ -42,7 +42,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "NiyaziCokuysa_DemirKo_sterit_IOS_Project")
+        let container = NSPersistentContainer(name: "NiyaziCokuysa_DemirKosterit_IOS_Project")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.

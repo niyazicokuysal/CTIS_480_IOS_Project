@@ -1,9 +1,9 @@
 //
 //  SceneDelegate.swift
-//  NiyaziCokuysa_DemirKösterit_IOS_Project
+//  NiyaziCokuysa_DemirKosterit_IOS_Project
 //
-//  Created by Niyazi Çokuysal on 27.12.2021.
-//  Copyright © 2021 NiyaziÇokuysal_DemirKösterit. All rights reserved.
+//  Created by CTIS Student on 31.12.2021.
+//  Copyright © 2021 niyazi-demir. All rights reserved.
 //
 
 import UIKit
