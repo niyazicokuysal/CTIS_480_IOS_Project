@@ -7,9 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD1C277F11B5004782C6 /* MainVC.swift */; };
+		BA75CD23277F12FB004782C6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD22277F12FB004782C6 /* Meal.swift */; };
+		BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD24277F1494004782C6 /* MenuVC.swift */; };
+		BA75CD27277F150F004782C6 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD26277F150F004782C6 /* CollectionViewCell.swift */; };
+		BA75CD29277F1536004782C6 /* CollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD28277F1536004782C6 /* CollectionReusableView.swift */; };
+		BA75CD2B277F167E004782C6 /* DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD2A277F167E004782C6 /* DataSource.swift */; };
+		BA75CD2D277F16DC004782C6 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD2C277F16DC004782C6 /* SwiftyJSON.swift */; };
+		BA75CD2F277F194A004782C6 /* data.json in Resources */ = {isa = PBXBuildFile; fileRef = BA75CD2E277F194A004782C6 /* data.json */; };
 		BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875A6277F0C5D00A65846 /* AppDelegate.swift */; };
 		BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */; };
-		BAD875AB277F0C5D00A65846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAD875AA277F0C5D00A65846 /* ViewController.swift */; };
 		BAD875AE277F0C5D00A65846 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875AC277F0C5D00A65846 /* Main.storyboard */; };
 		BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */; };
 		BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B2277F0C5E00A65846 /* Assets.xcassets */; };
@@ -17,10 +24,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BA75CD1C277F11B5004782C6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
+		BA75CD22277F12FB004782C6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		BA75CD24277F1494004782C6 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
+		BA75CD26277F150F004782C6 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		BA75CD28277F1536004782C6 /* CollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionReusableView.swift; sourceTree = "<group>"; };
+		BA75CD2A277F167E004782C6 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
+		BA75CD2C277F16DC004782C6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		BA75CD2E277F194A004782C6 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
 		BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiyaziCokuysa_DemirKosterit_IOS_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD875A6277F0C5D00A65846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		BAD875AA277F0C5D00A65846 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		BAD875AD277F0C5D00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BAD875B0277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodel; sourceTree = "<group>"; };
 		BAD875B2277F0C5E00A65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -58,13 +72,20 @@
 		BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */ = {
 			isa = PBXGroup;
 			children = (
+				BA75CD22277F12FB004782C6 /* Meal.swift */,
+				BA75CD24277F1494004782C6 /* MenuVC.swift */,
 				BAD875A6277F0C5D00A65846 /* AppDelegate.swift */,
 				BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */,
-				BAD875AA277F0C5D00A65846 /* ViewController.swift */,
+				BA75CD1C277F11B5004782C6 /* MainVC.swift */,
+				BA75CD2A277F167E004782C6 /* DataSource.swift */,
 				BAD875AC277F0C5D00A65846 /* Main.storyboard */,
+				BA75CD26277F150F004782C6 /* CollectionViewCell.swift */,
+				BA75CD28277F1536004782C6 /* CollectionReusableView.swift */,
+				BA75CD2E277F194A004782C6 /* data.json */,
 				BAD875B2277F0C5E00A65846 /* Assets.xcassets */,
 				BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */,
 				BAD875B7277F0C5E00A65846 /* Info.plist */,
+				BA75CD2C277F16DC004782C6 /* SwiftyJSON.swift */,
 				BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */,
 			);
 			path = NiyaziCokuysa_DemirKosterit_IOS_Project;
@@ -131,6 +152,7 @@
 				BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */,
 				BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */,
 				BAD875AE277F0C5D00A65846 /* Main.storyboard in Resources */,
+				BA75CD2F277F194A004782C6 /* data.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,10 +163,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA75CD23277F12FB004782C6 /* Meal.swift in Sources */,
+				BA75CD29277F1536004782C6 /* CollectionReusableView.swift in Sources */,
 				BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */,
-				BAD875AB277F0C5D00A65846 /* ViewController.swift in Sources */,
+				BA75CD2D277F16DC004782C6 /* SwiftyJSON.swift in Sources */,
+				BA75CD2B277F167E004782C6 /* DataSource.swift in Sources */,
+				BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */,
+				BA75CD27277F150F004782C6 /* CollectionViewCell.swift in Sources */,
 				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
 				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
+				BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

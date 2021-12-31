@@ -1,0 +1,70 @@
+{
+    "items": [
+              {
+                "category": "Pizza",
+                "name": "Marinara",
+                "description": "pizza with marinara sauce",
+                "image": "marinara" },
+              {
+              "category": "Pizza",
+              "name": "Margherita",
+              "description": "pizza with margherita",
+              "image": "margherita" },
+              {
+              "category": "Pizza",
+              "name": "Mushroom Pizza",
+              "description": "pizza with mushroom",
+              "image": "mushroom" },
+              {
+              "category": "Pizza",
+              "name": "Vegeterian Pizza",
+              "description": "vegeterian pizza",
+              "image": "vegetarian" },
+              {
+              "category": "Pizza",
+              "name": "Ricotta Pizza",
+              "description": "ricotta",
+              "image": "ricotta" },
+              {
+              "category": "Pizza",
+              "name": "Pepperoni Pizza",
+              "description": "pepperoni pizza",
+              "image": "pepperoni" },
+              {
+              "category": "Dessert",
+              "name": "Tiramisu",
+              "description": "tiramisu dessert",
+              "image": "tiramisu" },
+              {
+              "category": "Dessert",
+              "name": "Souffle",
+              "description": "souffle dessert",
+              "image": "souffle" },
+              {
+              "category": "Dessert",
+              "name": "KitKat Cake",
+              "description": "cake with kitkat",
+              "image": "kitkat" },
+              {
+              "category": "Side Dishes",
+              "name": "French Fries",
+              "description": "french fries",
+              "image": "frenchfries" },
+              {
+              "category": "Side Dishes",
+              "name": "Cheddar Fries",
+              "description": "french fries with melted cheddar",
+              "image": "cheddarfries" },
+              {
+              "category": "Side Dishes",
+              "name": "Fried Chicken",
+              "description": "fried chicken",
+              "image": "friedchicken" },
+              {
+              "category": "Side Dishes",
+              "name": "Boiled Shrimp",
+              "description": "boiled shrimp plate",
+              "image": "shrimp" }
+              
+            ]
+}
