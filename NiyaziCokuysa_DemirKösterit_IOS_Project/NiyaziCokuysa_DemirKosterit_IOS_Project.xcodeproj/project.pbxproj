@@ -3,13 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		12D4D12949C5FEFACA2AF541 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */; };
 		BA2F11E0277F8C7400895354 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */; };
-		BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E1277F8CD400895354 /* Favorite.swift */; };
 		BA2F11E4277F8EA500895354 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E3277F8EA500895354 /* DetailVC.swift */; };
 		BA2F11E82780FCA200895354 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E72780FCA200895354 /* FavoriteVC.swift */; };
 		BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD1C277F11B5004782C6 /* MainVC.swift */; };
@@ -26,12 +25,12 @@
 		BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */; };
 		BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B2277F0C5E00A65846 /* Assets.xcassets */; };
 		BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */; };
+		BAE3A90027811DAF009B7F23 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3A8FF27811DAF009B7F23 /* Favorite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3F70ABD4E72B29493B6725E3 /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		BA2F11E1277F8CD400895354 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Favorite.swift; path = NiyaziCokuysa_DemirKosterit_IOS_Project/Favorite.swift; sourceTree = "<group>"; };
 		BA2F11E3277F8EA500895354 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 		BA2F11E72780FCA200895354 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
 		BA75CD1C277F11B5004782C6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
@@ -50,6 +49,7 @@
 		BAD875B2277F0C5E00A65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAD875B5277F0C5E00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAD875B7277F0C5E00A65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAE3A8FF27811DAF009B7F23 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,8 +77,8 @@
 		BAD8759A277F0C5D00A65846 = {
 			isa = PBXGroup;
 			children = (
-				BA2F11E1277F8CD400895354 /* Favorite.swift */,
 				BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */,
+				BAE3A8FF27811DAF009B7F23 /* Favorite.swift */,
 				BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */,
 				BAD875A4277F0C5D00A65846 /* Products */,
 				D134FEB975C783924EAE1E07 /* Pods */,
@@ -124,7 +124,6 @@
 				3F70ABD4E72B29493B6725E3 /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig */,
 				FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -245,6 +244,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA75CD23277F12FB004782C6 /* Meal.swift in Sources */,
+				BAE3A90027811DAF009B7F23 /* Favorite.swift in Sources */,
 				BA75CD29277F1536004782C6 /* CollectionReusableView.swift in Sources */,
 				BA2F11E4277F8EA500895354 /* DetailVC.swift in Sources */,
 				BAD875B1277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld in Sources */,
@@ -254,7 +254,6 @@
 				BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */,
 				BA75CD27277F150F004782C6 /* CollectionViewCell.swift in Sources */,
 				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
-				BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */,
 				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
 				BA2F11E82780FCA200895354 /* FavoriteVC.swift in Sources */,
 				BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */,

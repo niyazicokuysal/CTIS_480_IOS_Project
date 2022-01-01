@@ -9,33 +9,30 @@
 import Foundation
 
 class DataSource {
-var mealList: [Meal] = []
-var categories: [String] = []
-
-
-func numbeOfItemsInEachCategory(index: Int) -> Int {
-    return itemsInCategory(index: index).count
-}
-
-func numberOfCategories() -> Int {
-    return categories.count
-}
-
-func getCategoryLabelAtIndex(index: Int) -> String {
-    return categories[index]
-}
-
-// MARK: - Populate Data from files
-func populate() {
+    var mealList: [Meal] = []
+    var categories: [String] = []
+    
+    
+    func numbeOfItemsInEachCategory(index: Int) -> Int {
+        return itemsInCategory(index: index).count
+    }
+    
+    func numberOfCategories() -> Int {
+        return categories.count
+    }
+    
+    func getCategoryLabelAtIndex(index: Int) -> String {
+        return categories[index]
+    }
+    
+    func populate() {
         if let path = Bundle.main.path(forResource: "data", ofType: "json") {
             if let data = NSData(contentsOfFile: path) {
                 
-                // https://www.dotnetperls.com/guard-swift
                 guard let json = try? JSON(data: data as Data) else {
                     print("Error with JSON")
                     return
                 }
-                //print(json)
                 
                 for index in 0..<json["items"].count {
                     let name = json["items"][index]["name"].string!
@@ -56,18 +53,11 @@ func populate() {
                 print("Data error")
             }
         }
-    //print(mealList)
-    //print(categories)
-}
-
+    }
     
-    // MARK: - itemsForEachGroup
+    
     func itemsInCategory(index: Int) -> [Meal] {
         let item = categories[index]
-        
-        // See playground6 for Closure
-        // http://locomoviles.com/uncategorized/filtering-swift-array-dictionaries-object-property/
-        
         let filteredItems = mealList.filter { (meal: Meal) -> Bool in
             return meal.category == item
         }
