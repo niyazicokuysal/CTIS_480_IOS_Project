@@ -1,0 +1,6 @@
+framework module Pods_NiyaziCokuysa_DemirKosterit_IOS_Project {
+  umbrella header "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project-umbrella.h"
+
+  export *
+  module * { export * }
+}
