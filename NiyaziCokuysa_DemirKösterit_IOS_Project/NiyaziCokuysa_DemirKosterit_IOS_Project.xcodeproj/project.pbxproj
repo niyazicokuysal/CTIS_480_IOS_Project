@@ -7,9 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12D4D12949C5FEFACA2AF541 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */; };
 		BA2F11E0277F8C7400895354 /* Favorite+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */; };
 		BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E1277F8CD400895354 /* Favorite.swift */; };
 		BA2F11E4277F8EA500895354 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E3277F8EA500895354 /* DetailVC.swift */; };
+		BA2F11E82780FCA200895354 /* FavoriteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA2F11E72780FCA200895354 /* FavoriteVC.swift */; };
 		BA75CD1D277F11B5004782C6 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD1C277F11B5004782C6 /* MainVC.swift */; };
 		BA75CD23277F12FB004782C6 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD22277F12FB004782C6 /* Meal.swift */; };
 		BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA75CD24277F1494004782C6 /* MenuVC.swift */; };
@@ -27,9 +29,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F70ABD4E72B29493B6725E3 /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig"; sourceTree = "<group>"; };
 		BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Favorite+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		BA2F11E1277F8CD400895354 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Favorite.swift; path = NiyaziCokuysa_DemirKosterit_IOS_Project/Favorite.swift; sourceTree = "<group>"; };
 		BA2F11E3277F8EA500895354 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		BA2F11E72780FCA200895354 /* FavoriteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteVC.swift; sourceTree = "<group>"; };
 		BA75CD1C277F11B5004782C6 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		BA75CD22277F12FB004782C6 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
 		BA75CD24277F1494004782C6 /* MenuVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuVC.swift; sourceTree = "<group>"; };
@@ -46,6 +50,8 @@
 		BAD875B2277F0C5E00A65846 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BAD875B5277F0C5E00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BAD875B7277F0C5E00A65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,12 +59,21 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12D4D12949C5FEFACA2AF541 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		87F2F54AC1DEC7E006280A4D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BAD8759A277F0C5D00A65846 = {
 			isa = PBXGroup;
 			children = (
@@ -66,6 +81,8 @@
 				BA2F11DE277F8C7400895354 /* Favorite+CoreDataProperties.swift */,
 				BAD875A5277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project */,
 				BAD875A4277F0C5D00A65846 /* Products */,
+				D134FEB975C783924EAE1E07 /* Pods */,
+				87F2F54AC1DEC7E006280A4D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +100,7 @@
 				BA75CD24277F1494004782C6 /* MenuVC.swift */,
 				BA2F11E3277F8EA500895354 /* DetailVC.swift */,
 				BA75CD1C277F11B5004782C6 /* MainVC.swift */,
+				BA2F11E72780FCA200895354 /* FavoriteVC.swift */,
 				BA75CD2A277F167E004782C6 /* DataSource.swift */,
 				BA75CD22277F12FB004782C6 /* Meal.swift */,
 				BAD875AC277F0C5D00A65846 /* Main.storyboard */,
@@ -100,6 +118,16 @@
 			path = NiyaziCokuysa_DemirKosterit_IOS_Project;
 			sourceTree = "<group>";
 		};
+		D134FEB975C783924EAE1E07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F70ABD4E72B29493B6725E3 /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig */,
+				FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -107,9 +135,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BAD875BA277F0C5E00A65846 /* Build configuration list for PBXNativeTarget "NiyaziCokuysa_DemirKosterit_IOS_Project" */;
 			buildPhases = (
+				A4C7136EC81D4C71A33EF212 /* [CP] Check Pods Manifest.lock */,
 				BAD8759F277F0C5D00A65846 /* Sources */,
 				BAD875A0277F0C5D00A65846 /* Frameworks */,
 				BAD875A1277F0C5D00A65846 /* Resources */,
+				2A587E106680934B718BEFF4 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -167,6 +197,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2A587E106680934B718BEFF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A4C7136EC81D4C71A33EF212 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BAD8759F277F0C5D00A65846 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -184,6 +256,7 @@
 				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
 				BA2F11E2277F8CD400895354 /* Favorite.swift in Sources */,
 				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
+				BA2F11E82780FCA200895354 /* FavoriteVC.swift in Sources */,
 				BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -326,6 +399,7 @@
 		};
 		BAD875BB277F0C5E00A65846 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F70ABD4E72B29493B6725E3 /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -343,6 +417,7 @@
 		};
 		BAD875BC277F0C5E00A65846 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

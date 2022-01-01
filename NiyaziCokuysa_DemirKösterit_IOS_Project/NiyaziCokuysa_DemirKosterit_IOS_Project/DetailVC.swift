@@ -8,21 +8,34 @@
 
 import UIKit
 import CoreData
+import SCLAlertView
 
 class DetailVC: UIViewController {
     @IBOutlet weak var mImageView: UIImageView!
     @IBOutlet weak var mName: UILabel!
     @IBOutlet weak var mtextArea: UITextView!
-
+    
     @IBOutlet weak var mPrice: UILabel!
     @IBOutlet weak var mFavorite: UIBarButtonItem!
+    
     
     var name: String?
     var image: String?
     var desc: String?
-    var price: Double = 0.0
+    var price: Double?
     var favorite: Favorite?
     
+    @IBAction func onDoubleTapImage(_ sender: Any) {
+        if(mFavorite.image == UIImage(systemName: "star")){
+            addFavorite()
+            SCLAlertView().showInfo("Added to Favorites", subTitle: "Added " + name! + " to favorites")
+            mFavorite.image = UIImage(systemName: "star.fill")
+        }else{
+            delete()
+            SCLAlertView().showInfo("Removed from Favorites", subTitle: "Removed " + name! + " from favorites")
+            mFavorite.image = UIImage(systemName: "star")
+        }
+    }
     @IBAction func onStarPressed(_ sender: Any) {
         
         if(mFavorite.image == UIImage(systemName: "star")){
@@ -35,33 +48,29 @@ class DetailVC: UIViewController {
     }
     
     func addFavorite() {
-         //print("delegate received")
-         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
-         
-        let newFavoriteItem = Favorite.createInManagedObjectContext(context, name: name!, desc: desc!, image: image!, price:NSNumber(value: price))
-         
-         //self.fetchData()
-         save()
-     }
+        let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
+        let newFavoriteItem = Favorite.createInManagedObjectContext(context, name: name!, desc: desc!, image: image!, price:NSNumber(value: price!))
+        self.fetchData()
+        save()
+    }
     
     func save() {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         
         do {
             try context.save()
-            // mTableView.reloadData()
         } catch let error as NSError  {
             print("Could not save \(error), \(error.userInfo)")
         }
     }
-     
+    
     func delete(){
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
         let favoriteToDelete = favorite
         context.delete(favoriteToDelete!)
+        save()
     }
     
-    // Our function to fetch data from Core Data
     func fetchData() {
         
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
@@ -76,21 +85,29 @@ class DetailVC: UIViewController {
         do {
             let result = try context.fetch(fetchRequest)
             if(result.count > 0){
-                //print("result if check")
                 favorite = result[0] as? Favorite
             }
-            print(favorite)
         } catch let error as NSError {
             print("Could not fetch \(error), \(error.userInfo)")
         }
         
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        
+        fetchData()
+        if(favorite?.desc != nil){
+            mFavorite.image = UIImage(systemName: "star.fill")
+        }else{
+            mFavorite.image = UIImage(systemName: "star")
+        }
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         mImageView.image = UIImage(named: image!)
         mName.text = name!
-        mPrice.text?.append("\(price)₺")
+        mPrice.text?.append("\(price!)₺")
         mtextArea.text = desc!
         
         fetchData()
