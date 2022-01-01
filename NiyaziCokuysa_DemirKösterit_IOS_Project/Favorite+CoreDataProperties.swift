@@ -21,6 +21,6 @@ extension Favorite {
     @NSManaged public var desc: String?
     @NSManaged public var image: String?
     @NSManaged public var name: String?
-    @NSManaged public var category: String?
+    //@NSManaged public var category: String?
 
 }

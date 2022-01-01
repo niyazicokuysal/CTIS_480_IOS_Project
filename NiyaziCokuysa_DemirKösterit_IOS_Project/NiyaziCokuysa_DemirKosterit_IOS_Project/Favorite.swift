@@ -14,12 +14,12 @@ import CoreData
 public class Favorite: NSManagedObject {
 
     // Static method (class keyword)
-    class func createInManagedObjectContext(_ context: NSManagedObjectContext, name: String, category: String, desc: String, image: String ,price: NSNumber) -> Favorite {
+    class func createInManagedObjectContext(_ context: NSManagedObjectContext, name: String, desc: String, image: String ,price: NSNumber) -> Favorite {
         let favoriteObject = NSEntityDescription.insertNewObject(forEntityName: "Favorite", into: context) as! Favorite
         favoriteObject.name = name
         favoriteObject.desc = desc
         favoriteObject.image = image
-        favoriteObject.category = category
+        //favoriteObject.category = category
         favoriteObject.price = Double(truncating: price)
         
         return favoriteObject

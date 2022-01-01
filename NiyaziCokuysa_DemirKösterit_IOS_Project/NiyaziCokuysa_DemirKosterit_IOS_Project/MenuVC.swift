@@ -48,19 +48,22 @@ class MenuVC: UIViewController, UICollectionViewDelegate, UICollectionViewDataSo
         
 
         
-        /*override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
             if segue.identifier == "detail" {
                 if let indexPath = getIndexPathForSelectedCell() {
                      //print(indexPath)
-                    let record = mDataSource.itemsInCategory(index: indexPath.section)[indexPath.row]
+                    let meal = mDataSource.itemsInCategory(index: indexPath.section)[indexPath.row]
                     
                     //print(record.category,record.image,record.name)
                     
-                    let detailViewController = segue.destination as! DetailVC
-                    detailViewController.mItem = record
+                    let vc = segue.destination as! DetailVC
+                    vc.name = meal.name
+                    vc.desc = meal.description
+                    vc.image = meal.image
+                    vc.price = meal.price
                 }
             }
-        }*/
+        }
         
         // Our function to find the indexPath of selected cell
         func getIndexPathForSelectedCell() -> IndexPath? {
