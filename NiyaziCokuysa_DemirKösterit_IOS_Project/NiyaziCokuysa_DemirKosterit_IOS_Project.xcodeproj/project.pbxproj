@@ -25,6 +25,7 @@
 		BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B2277F0C5E00A65846 /* Assets.xcassets */; };
 		BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */; };
 		BAE3A90027811DAF009B7F23 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3A8FF27811DAF009B7F23 /* Favorite.swift */; };
+		EAF3FF0F2784A9610051267E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -49,6 +50,7 @@
 		BAD875B7277F0C5E00A65846 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BAE3A8FF27811DAF009B7F23 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
 		FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -111,6 +113,7 @@
 				BAD875B2277F0C5E00A65846 /* Assets.xcassets */,
 				BAD875A6277F0C5D00A65846 /* AppDelegate.swift */,
 				BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */,
+				EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */,
 			);
 			path = NiyaziCokuysa_DemirKosterit_IOS_Project;
 			sourceTree = "<group>";
@@ -250,6 +253,7 @@
 				BA75CD2B277F167E004782C6 /* DataSource.swift in Sources */,
 				BA75CD27277F150F004782C6 /* CollectionViewCell.swift in Sources */,
 				BAD875A7277F0C5D00A65846 /* AppDelegate.swift in Sources */,
+				EAF3FF0F2784A9610051267E /* CustomTableViewCell.swift in Sources */,
 				BAD875A9277F0C5D00A65846 /* SceneDelegate.swift in Sources */,
 				BA2F11E82780FCA200895354 /* FavoriteVC.swift in Sources */,
 				BA75CD25277F1494004782C6 /* MenuVC.swift in Sources */,

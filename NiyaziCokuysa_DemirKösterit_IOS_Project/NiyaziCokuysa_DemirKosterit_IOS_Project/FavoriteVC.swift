@@ -37,12 +37,12 @@ class FavoriteVC: UIViewController, UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as UITableViewCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath) as! CustomTableViewCell
         let favorite = mFavorite[indexPath.row]
         
-        cell.imageView?.image = UIImage(named: favorite.image!)
-        cell.textLabel?.text = favorite.name!
-        cell.detailTextLabel!.text = "Price: " + String(favorite.price) + "₺"
+        cell.iconImageView.image = UIImage(named: favorite.image!)
+        cell.label.text = favorite.name!
+        cell.subLabel.text = "Price: " + String(favorite.price) + "₺"
         
         return cell
     }
