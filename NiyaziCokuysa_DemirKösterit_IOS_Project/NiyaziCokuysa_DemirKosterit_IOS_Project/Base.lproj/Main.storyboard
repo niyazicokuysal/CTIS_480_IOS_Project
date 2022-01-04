@@ -135,51 +135,56 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="725"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cGx-nX-0ZT">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="190"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleToFill" semanticContentAttribute="spatial" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="cGx-nX-0ZT">
+                                <rect key="frame" x="20" y="20" width="374" height="319"/>
                                 <gestureRecognizers/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="190" id="RNA-iQ-R9R"/>
+                                    <constraint firstAttribute="height" constant="319" id="RNA-iQ-R9R"/>
                                 </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="30"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
                                 <connections>
                                     <outletCollection property="gestureRecognizers" destination="6lr-q1-fln" appends="YES" id="01f-q2-XPU"/>
                                 </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RXH-R3-gIK">
-                                <rect key="frame" x="139" y="198" width="136.5" height="33.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="28"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kn5-0a-ege">
-                                <rect key="frame" x="172.5" y="239" width="69.5" height="31.5"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <rect key="frame" x="131" y="347" width="152.5" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" contentInsetAdjustmentBehavior="scrollableAxes" editable="NO" text="text area" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5zT-q3-Q7g">
-                                <rect key="frame" x="0.0" y="278" width="414" height="90"/>
+                                <rect key="frame" x="0.0" y="430" width="414" height="276"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="414" id="EpF-vm-EuD"/>
-                                    <constraint firstAttribute="height" constant="90" id="vHl-sv-nJ0"/>
+                                    <constraint firstAttribute="height" constant="276" id="vHl-sv-nJ0"/>
                                 </constraints>
                                 <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Price: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kn5-0a-ege">
+                                <rect key="frame" x="170.5" y="390.5" width="73" height="31.5"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="26"/>
+                                <color key="textColor" red="0.89674586060000006" green="0.197390914" blue="0.32938972119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="cGx-nX-0ZT" firstAttribute="top" secondItem="jvX-2s-si1" secondAttribute="top" id="AlD-9V-Bdt"/>
+                            <constraint firstItem="cGx-nX-0ZT" firstAttribute="top" secondItem="jvX-2s-si1" secondAttribute="top" constant="20" id="AlD-9V-Bdt"/>
                             <constraint firstItem="5zT-q3-Q7g" firstAttribute="top" secondItem="Kn5-0a-ege" secondAttribute="bottom" constant="7.5" id="CUV-IJ-Ogx"/>
-                            <constraint firstItem="cGx-nX-0ZT" firstAttribute="leading" secondItem="jvX-2s-si1" secondAttribute="leading" id="R3w-WO-KLL"/>
+                            <constraint firstItem="cGx-nX-0ZT" firstAttribute="leading" secondItem="jvX-2s-si1" secondAttribute="leading" constant="20" id="R3w-WO-KLL"/>
                             <constraint firstItem="RXH-R3-gIK" firstAttribute="top" secondItem="cGx-nX-0ZT" secondAttribute="bottom" constant="8" id="UC9-7m-tiZ"/>
                             <constraint firstItem="Kn5-0a-ege" firstAttribute="centerX" secondItem="Zk6-wG-rRG" secondAttribute="centerX" id="W7D-PB-Zhu"/>
                             <constraint firstItem="5zT-q3-Q7g" firstAttribute="centerX" secondItem="Zk6-wG-rRG" secondAttribute="centerX" id="ZNB-JU-HWJ"/>
                             <constraint firstItem="Kn5-0a-ege" firstAttribute="top" secondItem="RXH-R3-gIK" secondAttribute="bottom" constant="7.5" id="cg6-Rc-mgr"/>
                             <constraint firstItem="RXH-R3-gIK" firstAttribute="centerX" secondItem="Zk6-wG-rRG" secondAttribute="centerX" id="gqn-2R-0kA"/>
-                            <constraint firstItem="jvX-2s-si1" firstAttribute="trailing" secondItem="cGx-nX-0ZT" secondAttribute="trailing" id="jAz-3h-TRE"/>
+                            <constraint firstItem="jvX-2s-si1" firstAttribute="trailing" secondItem="cGx-nX-0ZT" secondAttribute="trailing" constant="20" id="jAz-3h-TRE"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="jvX-2s-si1"/>
                     </view>
@@ -205,7 +210,7 @@
                     </connections>
                 </tapGestureRecognizer>
             </objects>
-            <point key="canvasLocation" x="2219" y="118"/>
+            <point key="canvasLocation" x="2218.840579710145" y="117.85714285714285"/>
         </scene>
         <!--Favorites-->
         <scene sceneID="H7e-8B-Pbn">
