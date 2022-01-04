@@ -15,8 +15,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="house.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-ar-L3K">
-                                <rect key="frame" x="87" y="327.5" width="240" height="239.5"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="flame.fill" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="FMO-ar-L3K">
+                                <rect key="frame" x="87" y="327" width="240" height="240.5"/>
                                 <color key="tintColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="240" id="HsD-0Z-JbO"/>
@@ -31,16 +31,6 @@
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="IOS PROJECT by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8L-GM-4gP">
-                                <rect key="frame" x="106" y="138" width="203" height="37"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="37" id="al4-7A-T22"/>
-                                    <constraint firstAttribute="width" constant="203" id="oE1-xA-3r0"/>
-                                </constraints>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="25"/>
-                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Niyazi Berkay Çokuysal" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dtl-Hv-UBt">
@@ -60,17 +50,27 @@
                                 <color key="textColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="FOODIE APP by" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y8L-GM-4gP">
+                                <rect key="frame" x="79" y="139" width="257" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="al4-7A-T22"/>
+                                    <constraint firstAttribute="width" constant="257" id="oE1-xA-3r0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="35"/>
+                                <color key="textColor" systemColor="systemGroupedBackgroundColor" red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.89674586060000006" green="0.197390914" blue="0.32938972119999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
                             <constraint firstItem="Roe-Pi-kFV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="124" id="Awj-3F-qrI"/>
                             <constraint firstItem="ZRf-6a-pg3" firstAttribute="top" secondItem="Roe-Pi-kFV" secondAttribute="bottom" constant="8" id="DcP-Nn-V6S"/>
-                            <constraint firstItem="Roe-Pi-kFV" firstAttribute="top" secondItem="Y8L-GM-4gP" secondAttribute="bottom" constant="44" id="Mfb-j8-3GN"/>
+                            <constraint firstItem="Roe-Pi-kFV" firstAttribute="top" secondItem="Y8L-GM-4gP" secondAttribute="bottom" constant="36" id="Mfb-j8-3GN"/>
                             <constraint firstItem="FMO-ar-L3K" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Ox0-5c-aAi"/>
-                            <constraint firstItem="Y8L-GM-4gP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="94" id="Qb6-1r-OOg"/>
+                            <constraint firstItem="Y8L-GM-4gP" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="95" id="Qb6-1r-OOg"/>
                             <constraint firstItem="FMO-ar-L3K" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="axa-TF-ycC"/>
                             <constraint firstItem="ZRf-6a-pg3" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="73" id="rL3-fJ-KMs"/>
-                            <constraint firstItem="Y8L-GM-4gP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="106" id="zhd-Fk-8bZ"/>
+                            <constraint firstItem="Y8L-GM-4gP" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="79" id="zhd-Fk-8bZ"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
@@ -81,6 +81,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="house.fill" catalog="system" width="64" height="52"/>
+        <image name="flame.fill" catalog="system" width="54" height="64"/>
     </resources>
 </document>

@@ -40,7 +40,7 @@
 		BA75CD2A277F167E004782C6 /* DataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSource.swift; sourceTree = "<group>"; };
 		BA75CD2C277F16DC004782C6 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		BA75CD2E277F194A004782C6 /* data.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = data.json; sourceTree = "<group>"; };
-		BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NiyaziCokuysa_DemirKosterit_IOS_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD875A3277F0C5D00A65846 /* FOODIE.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FOODIE.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAD875A6277F0C5D00A65846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BAD875A8277F0C5D00A65846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		BAD875AD277F0C5D00A65846 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -89,7 +89,7 @@
 		BAD875A4277F0C5D00A65846 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */,
+				BAD875A3277F0C5D00A65846 /* FOODIE.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -146,7 +146,7 @@
 			);
 			name = NiyaziCokuysa_DemirKosterit_IOS_Project;
 			productName = NiyaziCokuysa_DemirKosterit_IOS_Project;
-			productReference = BAD875A3277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.app */;
+			productReference = BAD875A3277F0C5D00A65846 /* FOODIE.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -408,7 +408,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKosterit-IOS-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FOODIE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -426,7 +426,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.niyazi-demir.NiyaziCokuysa-DemirKosterit-IOS-Project";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = FOODIE;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
