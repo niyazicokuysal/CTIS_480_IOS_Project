@@ -378,6 +378,9 @@
                                                 <integer key="value" value="30"/>
                                             </userDefinedRuntimeAttribute>
                                         </userDefinedRuntimeAttributes>
+                                        <connections>
+                                            <outletCollection property="gestureRecognizers" destination="jsK-Af-EcY" appends="YES" id="qVE-Jl-Iju"/>
+                                        </connections>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Meal Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zQa-dA-hiW">
                                         <rect key="frame" x="131" y="335" width="152.5" height="36"/>
@@ -445,6 +448,11 @@
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="deR-My-iIW" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="jsK-Af-EcY">
+                    <connections>
+                        <action selector="onDoubleTapImage:" destination="2sR-aq-Y4k" id="QHz-xy-k9x"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="2283" y="118"/>
         </scene>
