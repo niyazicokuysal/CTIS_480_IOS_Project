@@ -111,6 +111,7 @@
 				BA75CD2E277F194A004782C6 /* data.json */,
 				BAD875B7277F0C5E00A65846 /* Info.plist */,
 				BAD875B2277F0C5E00A65846 /* Assets.xcassets */,
+				EAF3FF112786302F0051267E /* Sound */,
 				BAD875A6277F0C5D00A65846 /* AppDelegate.swift */,
 				BAD875AF277F0C5D00A65846 /* NiyaziCokuysa_DemirKosterit_IOS_Project.xcdatamodeld */,
 				EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */,
@@ -125,6 +126,13 @@
 				FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		EAF3FF112786302F0051267E /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
