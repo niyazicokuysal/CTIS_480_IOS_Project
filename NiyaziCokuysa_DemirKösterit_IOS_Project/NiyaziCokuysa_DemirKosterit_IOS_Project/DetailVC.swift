@@ -9,6 +9,7 @@
 import UIKit
 import CoreData
 import SCLAlertView
+import AVFoundation
 
 class DetailVC: UIViewController {
     @IBOutlet weak var mImageView: UIImageView!
@@ -18,6 +19,7 @@ class DetailVC: UIViewController {
     @IBOutlet weak var mPrice: UILabel!
     @IBOutlet weak var mFavorite: UIBarButtonItem!
     
+    var audioPlayer: AVAudioPlayer?
     
     var name: String?
     var image: String?
@@ -37,6 +39,16 @@ class DetailVC: UIViewController {
         }
     }
     @IBAction func onStarPressed(_ sender: Any) {
+        
+        let pathToSound = Bundle.main.path(forResource: "notification", ofType: "mp3")!
+        let url = URL(fileURLWithPath: pathToSound)
+        
+        do {
+            audioPlayer = try AVAudioPlayer(contentsOf: url)
+            audioPlayer?.play()
+        } catch  {
+            print(error)
+        }
         
         if(mFavorite.image == UIImage(systemName: "star")){
             addFavorite()

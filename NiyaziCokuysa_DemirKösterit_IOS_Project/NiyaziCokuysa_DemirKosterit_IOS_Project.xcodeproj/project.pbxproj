@@ -26,6 +26,7 @@
 		BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAD875B4277F0C5E00A65846 /* LaunchScreen.storyboard */; };
 		BAE3A90027811DAF009B7F23 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAE3A8FF27811DAF009B7F23 /* Favorite.swift */; };
 		EAF3FF0F2784A9610051267E /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */; };
+		EAF3FF13278631160051267E /* notification.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EAF3FF12278631160051267E /* notification.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,6 +52,7 @@
 		BAE3A8FF27811DAF009B7F23 /* Favorite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
 		E4955CC3EF1F30C8758D4814 /* Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NiyaziCokuysa_DemirKosterit_IOS_Project.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAF3FF0E2784A9610051267E /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		EAF3FF12278631160051267E /* notification.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = notification.mp3; path = ../notification.mp3; sourceTree = "<group>"; };
 		FE76802367E9A2D37E9DA25E /* Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; path = "Target Support Files/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project/Pods-NiyaziCokuysa_DemirKosterit_IOS_Project.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -131,6 +133,7 @@
 		EAF3FF112786302F0051267E /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				EAF3FF12278631160051267E /* notification.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAF3FF13278631160051267E /* notification.mp3 in Resources */,
 				BAD875B6277F0C5E00A65846 /* LaunchScreen.storyboard in Resources */,
 				BAD875B3277F0C5E00A65846 /* Assets.xcassets in Resources */,
 				BAD875AE277F0C5D00A65846 /* Main.storyboard in Resources */,
